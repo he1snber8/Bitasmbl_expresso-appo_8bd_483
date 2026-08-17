@@ -149,8 +149,11 @@ jobs:
         run: |
           # Get diff and use jq to handle JSON string escaping properly
           DIFF=$(git diff HEAD^ HEAD)
-          DIFF_ESCAPED=$(printf '%s' "$DIFF" | jq -Rs .)
-          echo "diff=$DIFF_ESCAPED" >> $GITHUB_OUTPUT
+           {
+            echo 'diff<<EOF'
+            printf '%s\n' "$DIFF"
+            echo 'EOF'
+           } >> "$GITHUB_OUTPUT"
 
       - name: Send to backend
         run: |
