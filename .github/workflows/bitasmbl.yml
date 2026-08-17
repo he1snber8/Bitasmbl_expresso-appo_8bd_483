@@ -166,7 +166,6 @@ jobs:
             "repo": "${{ github.repository }}",
             "baseSha": "${{ github.event.before }}",
             "commitSha": "${{ github.sha }}",
-            "diffs": ${{ steps.diff.outputs.diff }},
             "activityMeta": ${{ steps.meta.outputs.activity_data }}
           }
           EOF
