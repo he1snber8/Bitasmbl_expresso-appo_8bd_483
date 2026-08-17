@@ -1,27 +1,24 @@
 {
   "projectApplicationId": 483,
-  "requirementId": 917,
+  "requirementId": 916,
   "files": [
-    "backend/src/routes/route.ts"
+    "backend/src/types/route.ts"
   ],
   "activityMeta": [
     {
-      "file": "backend/src/routes/route.ts",
-      "requirementId": 917,
-      "lastModified": "2026-08-17T14:07:33.855Z",
+      "file": "backend/src/types/route.ts",
+      "requirementId": 916,
+      "lastModified": "2026-08-17T14:09:19.481Z",
       "activity": {
-        "editEvents": 3,
-        "activeDurationSec": 148,
+        "editEvents": 1,
+        "activeDurationSec": 0,
         "idleBreaks": 0,
-        "medianEditIntervalSec": 74,
-        "intervalSamples": [
-          31,
-          117
-        ]
+        "medianEditIntervalSec": 0,
+        "intervalSamples": []
       },
       "diffStats": {
-        "linesAdded": 2,
-        "linesDeleted": 1
+        "linesAdded": 3,
+        "linesDeleted": 0
       },
       "sourceHints": {
         "possiblePaste": false,
