@@ -1,3 +1,4 @@
 export interface {
-    route: string
+    route: string,
+    touL: number;
 }
