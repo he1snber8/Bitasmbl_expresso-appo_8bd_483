@@ -159,7 +159,7 @@ jobs:
             -X POST https://5d6f-5-152-100-221.ngrok-free.app/projects/evaluate-code-diff \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.BITASMBL_TOKEN }}" \
-            -d @- <<EOF
+            -d @- <<'EOF'
           {
             "projectApplicationId": ${{ steps.meta.outputs.project_application_id }},
             "requirementId": ${{ steps.meta.outputs.requirement_id }},
