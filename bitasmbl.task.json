@@ -1,23 +1,20 @@
 {
   "projectApplicationId": 483,
-  "requirementId": 918,
+  "requirementId": 917,
   "files": [
-    "backend/src/middleware/someMiddlWareShit.ts"
+    "backend/src/routes/route.ts"
   ],
   "activityMeta": [
     {
-      "file": "backend/src/middleware/someMiddlWareShit.ts",
-      "requirementId": 918,
-      "lastModified": "2026-08-17T12:23:56.894Z",
+      "file": "backend/src/routes/route.ts",
+      "requirementId": 917,
+      "lastModified": "2026-08-17T14:05:05.580Z",
       "activity": {
-        "editEvents": 3,
-        "activeDurationSec": 315,
-        "idleBreaks": 1,
-        "medianEditIntervalSec": 501.5,
-        "intervalSamples": [
-          988,
-          15
-        ]
+        "editEvents": 1,
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "medianEditIntervalSec": 0,
+        "intervalSamples": []
       },
       "diffStats": {
         "linesAdded": 3,
