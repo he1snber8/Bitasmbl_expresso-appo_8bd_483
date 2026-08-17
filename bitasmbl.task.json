@@ -1,0 +1,32 @@
+{
+  "projectApplicationId": 483,
+  "requirementId": 918,
+  "files": [
+    "backend/src/middleware/someMiddlWareShit.ts"
+  ],
+  "activityMeta": [
+    {
+      "file": "backend/src/middleware/someMiddlWareShit.ts",
+      "requirementId": 918,
+      "lastModified": "2026-08-17T12:23:56.894Z",
+      "activity": {
+        "editEvents": 3,
+        "activeDurationSec": 315,
+        "idleBreaks": 1,
+        "medianEditIntervalSec": 501.5,
+        "intervalSamples": [
+          988,
+          15
+        ]
+      },
+      "diffStats": {
+        "linesAdded": 3,
+        "linesDeleted": 0
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}
